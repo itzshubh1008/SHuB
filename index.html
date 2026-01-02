@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern, high-performance portfolio showcasing creative work and expertise.">
+    <meta name="theme-color" content="#0a0e27">
+    <title>Portfolio - Building Bold Digital Experiences</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader-container" id="loaderContainer">
+        <div class="loader">
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <div class="loader-text">Loading</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Portfolio</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <!-- Profile Picture Section -->
+            <div class="profile-container">
+                <div class="profile-image-wrapper">
+                    <img src="profile/main.jpg" alt="Profile" class="profile-image">
+                    <div class="profile-overlay"></div>
+                </div>
+                <h2 class="profile-name">Shubham Nale</h2>
+            </div>
+            <h1 class="hero-title">Learning AI. Building Foundations.</h1>
+            <p class="hero-subtitle">Computer Science engineering student focused on Artificial Intelligence, machine learning, and problem solving through code.</p>
+            <a href="#certificates" class="cta-button primary">View My Achievements</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I’m a Computer Science engineering student who enjoys building clean, functional digital experiences. I focus on writing simple, efficient code and designing interfaces that feel intuitive and purposeful.</p>
+                    <p>I like working at the intersection of logic and creativity—turning ideas into products that actually work and scale. Whether it’s a website, an app, or an experiment, I care about clarity, performance, and attention to detail.</p>
+                    <p>I’m constantly learning, improving my skills, and exploring new technologies to become a better engineer every day.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>Engineer</h3>
+                        <p>Pursuing B.Tech in Computer Science & Technology</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Academic Year</h3>
+                        <p>Second Year Engineering Student</p>
+            
+                    </div>
+                    <div class="stat">
+                        <h3>Core Interests</h3>
+                        <p>Artificial Intelligence, Machine Learning, Data Analysis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What I Do</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"></div>
+                    <h3>Programming Foundations</h3>
+                    <p>Strong foundation in programming using Python and C, with focus on logic, data structures, and problem solving.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"></div>
+                    <h3>Artificial Intelligence & ML</h3>
+                    <p>Learning core AI and Machine Learning concepts including supervised learning, data preprocessing, and model evaluation.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"></div>
+                    <h3>Web Development</h3>
+                    <p>Building clean, responsive websites using HTML, CSS, JavaScript, and modern development practices.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"></div>
+                    <h3>Tools & Technologies</h3>
+                    <p>Hands-on experience with Git, GitHub, VS Code, Python libraries, and basic Linux workflows.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"></div>
+                    <h3>Data & Analysis</h3>
+                    <p>Working with data using Python libraries to analyze patterns, clean datasets, and extract meaningful insights.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"></div>
+                    <h3>Problem Solving</h3>
+                    <p>Strategic thinking paired with creative solutions for complex challenges</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications & Achievements</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card" data-cert="oracle">
+                    <img src="certificates/MaTPO.jpg" alt="Certificate Of Participation">
+                    <h3>Certificate Of Participation</h3>
+                </div>
+                <div class="certificate-card" data-cert="tata">
+                    <img src="certificates/Tata Data Analytics_page-0001.jpg" alt="Tata Data Analytics">
+                    <h3>Tata Data Analytics</h3>
+                </div>
+                <div class="certificate-card" data-cert="certificate">
+                    <img src="certificates/certificate.jpg" alt="Internship Certificate">
+                    <h3>Internship Certificate</h3>
+                </div>
+                <div class="certificate-card" data-cert="course">
+                    <img src="certificates/course.jpg" alt="Course Completion">
+                    <h3>Course Completion</h3>
+                </div>
+                <div class="certificate-card" data-cert="achievement">
+                    <img src="certificates/LA2JDIMJZX.png" alt="Achievement Certificate">
+                    <h3>Achievement Certificate</h3>
+                </div>
+                <div class="certificate-card" data-cert="new">
+                    <img src="certificates/OracleAI.jpg" alt="Oracle University">
+                    <h3>Oracle University</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Section -->
+    <section class="personal" id="personal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Beyond the Code</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <h3>Editing</h3>
+                    <p>Video editing using DaVinci Resolve, focusing on clean cuts, pacing, and visual storytelling.</p>
+                </div>
+                <div class="interest-card">
+                    <h3> Photography</h3>
+                    <p>Exploring composition, light, and perspective to better understand visual design and attention to detail.</p>
+                </div>
+                <div class="interest-card">
+                    <h3> Music</h3>
+                    <p>Listening to lo-fi and instrumental music to stay focused while studying, coding, and experimenting.</p>
+                </div>
+                <div class="interest-card">
+                    <h3> Travel</h3>
+                    <p>Exploring different cultures, meeting builders worldwide, and finding inspiration everywhere.</p>
+                </div>
+                <div class="interest-card">
+                    <h3> Learning</h3>
+                    <p>Actively learning Artificial Intelligence, Machine Learning, and core computer science concepts through practice and projects.</p>
+                </div>
+                <div class="interest-card">
+                    <h3> Community</h3>
+                    <p>Interested in contributing to open-source projects and learning from developer communities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="contact-content">
+                <p class="contact-intro">I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out.</p>
+                <div class="contact-methods">
+                    <a href="mailto:shubhamnale1008@gmail.com" class="contact-button email" title="Email Shubham" onclick="openGmailCompose('shubhamnale1008@gmail.com','',''); return false;" rel="noopener noreferrer">
+                        <i class="fas fa-envelope button-icon"></i>
+                        <span>Send me an email</span>
+                    </a>
+                    <a href="mailto:shubhamnale1008@gmail.com?subject=Let%27s%20Work%20Together&body=Hi%20Shubham%2C%0A%0AI%27d%20like%20to%20discuss%20a%20project%20with%20you." class="contact-button" title="Start a conversation" onclick="openGmailCompose('shubhamnale1008@gmail.com','Let\\'s Work Together','Hi Shubham, I\\'d like to discuss a project with you.'); return false;" rel="noopener noreferrer">
+                        <i class="fas fa-comments button-icon"></i>
+                        <span>Start a conversation</span>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <h3>Connect with me</h3>
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/in/shubham-nale-235802331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+                        <a href="https://github.com/itzshubh1008" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i><span>GitHub</span></a>
+                        <a href="https://www.instagram.com/itz_shubh1008?igsh=MXJpMWttdWkwbDE2dA==" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+                        <a href="https://youtube.com/@snxzedit?si=szsijCjBR8sNaagF" class="social-link" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i><span>YouTube</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p class="footer-name">© <span id="footerYear"></span> Shubham Nale. All rights reserved.</p>
+                    <p class="footer-quote">Simply Lovely</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div class="cert-modal" id="certModal">
+        <div class="cert-modal-overlay" id="certModalOverlay"></div>
+        <div class="cert-modal-content">
+            <button class="cert-modal-close" id="certModalClose">&times;</button>
+            <div class="cert-modal-image-container">
+                <img id="certModalImage" src="" alt="Certificate" class="cert-modal-image">
+            </div>
+            <h2 id="certModalTitle" class="cert-modal-title"></h2>
+            <button class="cert-modal-download" id="certDownload">View Full Size</button>
+        </div>
+    </div>
+
+                <!-- Try Gmail app compose first (Gmail scheme / Android intent), then fallback to mailto -->
+                <script>
+                    function openGmailCompose(to, subject, body) {
+                        function enc(s){ return encodeURIComponent(s||''); }
+                        var mailto = 'mailto:' + enc(to) + '?subject=' + enc(subject) + '&body=' + enc(body);
+                        var gmailScheme = 'googlegmail://co?to=' + enc(to) + '&subject=' + enc(subject) + '&body=' + enc(body);
+                        var intentUrl = 'intent://compose?to=' + enc(to) + '&subject=' + enc(subject) + '&body=' + enc(body) + '#Intent;scheme=mailto;package=com.google.android.gm;end';
+
+                        // Try Gmail URL scheme (iOS/Android Gmail app)
+                        try { window.location.href = gmailScheme; } catch(e) {}
+
+                        // Then try Android intent (Chrome on Android)
+                        setTimeout(function(){ try { window.location.href = intentUrl; } catch(e){} }, 600);
+
+                        // Finally fallback to mailto after short delay
+                        setTimeout(function(){ try { window.location.href = mailto; } catch(e){} }, 1200);
+                    }
+                </script>
+
+                <script src="script.js"></script>
+                <script>
+                    // Set footer year dynamically to keep the footer professional and up-to-date
+                    (function(){
+                        var el = document.getElementById('footerYear');
+                        if(el) el.textContent = new Date().getFullYear();
+                    })();
+                </script>
+</body>
+</html>
