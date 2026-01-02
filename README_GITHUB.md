@@ -1,4 +1,4 @@
-# Shubham Nale - Portfolio
+# Shubham Nale - Portfolio✨
 
 My personal portfolio website - clean, modern, and dark themed.
 (https://itzshubh1008.github.io/SHuB/)
@@ -13,7 +13,7 @@ My personal portfolio website - clean, modern, and dark themed.
 
 ## Quick Start
 
-### On Your Computer
+### On Your Computer 💻
 1. Clone the repo:
 ```bash
 git clone https://github.com/YOUR_USERNAME/portfolio.git
@@ -36,7 +36,7 @@ Edit `index.html` and update:
 - Social media links
 - Certificate images
 
-### Change Colors
+### Change Colors 🎨
 Go to `style.css` and change the colors at the top:
 ```css
 --color-accent: #6366f1;      /* main color */
@@ -51,14 +51,14 @@ Go to `style.css` and change the colors at the top:
 - **Icon library** - Font Awesome for social links
 - **Google Fonts** - clean typography
 
-## Performance
+## Performance✨
 
 - Fast loading (under 1 second)
 - Smooth animations
 - Works offline
 - No tracking or cookies
 
-## Contact
+## Contact 📞
 
 - Email: shubhamnale1008@gmail.com
 - LinkedIn: [shubham-nale](https://www.linkedin.com/in/shubham-nale-235802331/)
@@ -68,5 +68,6 @@ Go to `style.css` and change the colors at the top:
 ## License
 
 MIT - use it however you want
+
 
 
