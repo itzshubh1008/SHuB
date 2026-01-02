@@ -1,8 +1,7 @@
 # Shubham Nale - Portfolio
 
 My personal portfolio website - clean, modern, and dark themed.
-https://github.com/itzshubh1008/SHuB/
-
+(https://itzshubh1008.github.io/SHuB/)
 ## Features
 
 - Dark theme with smooth animations
@@ -69,4 +68,5 @@ Go to `style.css` and change the colors at the top:
 ## License
 
 MIT - use it however you want
+
 
